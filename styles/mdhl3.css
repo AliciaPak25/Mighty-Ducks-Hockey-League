@@ -1,0 +1,138 @@
+*:not(ul, ol, li, dl){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* general */
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(../assets/hockeyfoto.jpg);
+    background-size: cover;
+    height: 30vh;
+    background-position: 33% 33%;
+}   
+#logo{
+    width: 15em;
+}
+nav{
+    margin-top: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    background-color: rgba(56, 56, 56, 0.63);
+    padding: 0.5em;
+    border: 1px solid black;
+    border-radius: 5em;
+    box-shadow: 2px 2px 2px rgb(105, 105, 105);
+}
+nav a:hover{
+    color: white;
+    background-color: rgba(255, 174, 0, 0.767);
+    padding: 1em;
+    border: 3px solid black;
+    border-radius: 20em;
+    box-shadow: 5px 5px 5px rgba(230, 7, 7, 0.575);
+}
+.active{
+    color: white;
+    background-color: rgba(255, 174, 0, 0.767);
+    padding: 0.6em;
+    border: 3px solid black;
+    border-radius: 20em;
+    box-shadow: 5px 5px 5px rgba(230, 7, 7, 0.575);
+}
+h1{
+    font-size: 1.5rem;
+    color: rgba(255, 196, 0, 0.836);
+    background-color: black;
+    border: 2px solid rgba(255, 251, 0, 0.541);
+    border-radius: 1rem;
+    padding: 0.1em;
+    margin-top: 7.8em;
+    margin-bottom: 0.1em;  
+}
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    background-image: url(../assets/fondopic.jpg);
+    padding: 5px;
+    border: 1px solid red;
+}
+body{
+    background-color: rgba(53, 119, 83, 0.445);
+}
+.article{
+    text-align: center;
+    margin: 0 5rem;
+}
+.bold{
+    font-weight: bold;
+}
+/* about */
+h3{
+    font-size: 1.5rem;
+}
+/* rules */
+.p-heading{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 0.5rem;
+}
+dt{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.primeralinea{
+    text-indent: 2rem;
+}
+ol.lista{
+    list-style-type: lower-alpha
+}
+li.lista1{
+    list-style-type: circle
+}
+/* game info */
+table, th, td{
+     text-align: center;
+     margin: auto;
+     padding: 0 2em 1em 0;
+}
+.fall{
+    font-style: italic;
+}
+.saturday{
+    font-style: italic;
+    text-decoration: underline;
+}
+.questions{
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.questions > p:first-child{
+    width: 100%;
+}
+.questions > p:last-child{
+    margin: 0 auto;
+}
+/* registration form */
+.form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.fieldset_size{
+    width: 42em;
+}
+.input{
+    padding: 0 1em;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid black;
+    font-size: 1rem;
+}
