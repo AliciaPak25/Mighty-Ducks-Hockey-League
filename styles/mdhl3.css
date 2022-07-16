@@ -12,12 +12,17 @@ header{
     background-size: cover;
     height: 30vh;
     background-position: 33% 33%;
-}   
+} 
+aside{
+    width: 20%;
+}
 #logo{
-    width: 15em;
+    width: 14em;
+    margin-left: 0.5em;
 }
 nav{
     margin-top: 1rem;
+    width: 60%;
 }
 nav a{
     text-decoration: none;
@@ -45,14 +50,15 @@ nav a:hover{
     box-shadow: 5px 5px 5px rgba(230, 7, 7, 0.575);
 }
 h1{
-    font-size: 1.5rem;
-    color: rgba(255, 196, 0, 0.836);
+    font-size: 1.4rem;
+    color: #f8e12e;
     background-color: black;
-    border: 2px solid rgba(255, 251, 0, 0.541);
+    border: 2px solid #753327;
     border-radius: 1rem;
     padding: 0.1em;
-    margin-top: 7.8em;
-    margin-bottom: 0.1em;  
+    margin-top: 8.5em;
+    margin-bottom: 0.2em;
+    width: 19%;
 }
 h2{
     text-align: center;
@@ -63,11 +69,16 @@ h2{
     border: 1px solid red;
 }
 body{
-    background-color: rgba(53, 119, 83, 0.445);
+    background-color: #5fa199;
 }
 .article{
-    text-align: center;
-    margin: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    height: 50vh;
 }
 .bold{
     font-weight: bold;
@@ -75,19 +86,33 @@ body{
 /* about */
 h3{
     font-size: 1.5rem;
+    margin-bottom: 0.2em;
+    margin-top: 0.5em;
 }
 /* rules */
 .p-heading{
     text-align: center;
     font-size: 22px;
-    margin-top: 0.5rem;
+    margin-top: 0.3rem;
+}
+dl{
+    margin-left: 2em;
+    margin-right: 2em;
 }
 dt{
     font-weight: bold;
     font-size: 1.5rem;
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
-.primeralinea{
+dd{
+    margin-bottom: 0.5em;
+}
+.first-line{
     text-indent: 2rem;
+}
+li{
+    margin-top: 0.3em;
 }
 ol.lista{
     list-style-type: lower-alpha
@@ -125,7 +150,7 @@ table, th, td{
    flex-direction: column;
    align-items: center;
 }
-.fieldset_size{
+.fieldset-size{
     width: 42em;
 }
 .input{
